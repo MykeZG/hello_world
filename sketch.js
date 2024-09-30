@@ -11,7 +11,7 @@ function draw() {
   // draw: función central del sketch (escena) y se ejecuta en relacion del framerate
 
   // Lienzo
-  background("#000066");
+  background("#ffffff");
 
   // Cabello
   // me tomó unos 5 mintuos entender las cordenadas y encima esbribir e ir entendido las coordenadas me voló la mentexddd aproximadamente me tomo 1 hora
