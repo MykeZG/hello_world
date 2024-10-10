@@ -11,7 +11,7 @@ function draw() {
   // draw: función central del sketch (escena) y se ejecuta en relacion del framerate
 
   // Lienzo
-  background("#ffffff");
+  background(255);
 
   // Cabello
   // me tomó unos 5 mintuos entender las cordenadas y encima esbribir e ir entendido las coordenadas me voló la mentexddd aproximadamente me tomo 1 hora
@@ -40,6 +40,7 @@ function draw() {
   line(mouseX + 140, mouseY + 130, mouseX + 200, mouseY + 120); // Línea 22
   line(mouseX + 140, mouseY + 130, mouseX + 150, mouseY + 170); // Línea 23
   line(mouseX + 100, mouseY + 160, mouseX + 150, mouseY + 170); // Línea 24
+  stroke(0);
 
   // Orejas
   arc(mouseX + 123, mouseY + 70, 50, 50, -1.5, 1.5); // Oreja Derecha
@@ -53,14 +54,14 @@ function draw() {
   rect(mouseX, mouseY - 80, 200, 20, 20); // Ceja
 
   // Ojo Izquierdo xd
-  fill(0, 0, 0); // Color de la pupila
+  fill(0); // Color de la pupila
   circle(mouseX - 60, mouseY - 16, 20); // Pupila
   // tarso o parpado nose como llamarle
   noFill();
   arc(mouseX - 60, mouseY, 100, 50, 3.1, 0);
 
   // Ojo Derecho xd
-  fill("#000000");
+  fill(0);
   circle(mouseX + 60, mouseY - 16, 20);
 
   // Ojo exterior xddd
